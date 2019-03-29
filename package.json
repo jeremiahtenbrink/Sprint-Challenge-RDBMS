@@ -1,0 +1,32 @@
+{
+  "name": "sprint-challenge-rdbms",
+  "version": "1.0.0",
+  "description": "This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiahtenbrink/Sprint-Challenge-RDBMS.git"
+  },
+  "author": "Jeremiah Tenbrink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiahtenbrink/Sprint-Challenge-RDBMS/issues"
+  },
+  "homepage": "https://github.com/jeremiahtenbrink/Sprint-Challenge-RDBMS#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/helmet": "0.0.43",
+    "@types/node": "^11.12.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "knex": "^0.16.3",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "knex-cleaner": "^1.1.4"
+  }
+}
